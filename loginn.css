@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url(IMG_20230121_091053.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.menu
+{
+background:navy;
+text-align:center;
+/* position: relative; */
+}
+.menu ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:navy;
+}
+.menu ul li
+{
+    width: 150px;
+    margin: 8px;
+    padding: 8px;
+    border-radius:10px;
+}
+.menu ul li a
+{
+text-decoration: none;
+color: white;
+}
+.act,.menu ul li:hover
+{
+background:orange
+}
+.container {
+    width: 380px;
+    margin: auto;
+    border-radius: 25px;
+    background-color:rgb(163, 163, 220);
+    margin-top:70px;
+    box-shadow: 0 0 15px #333;
+}
+.header {
+    text-align: center;
+    padding-top: 75px;
+}
+.header h1{
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+.main {
+    text-align: center;
+}
+.main input,button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 40px;
+    border-radius: 6px ;
+
+    
+}
+ .main button {
+    color: #fff;
+    padding-left: 0;
+    background-color:navy;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 170px;
+}
+.main button:hover {
+ box-shadow: 2px 2px 5px #555;
+    background-color:orange;
+    
+}
+.main input:hover {
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+}
+.main input::placeholder{
+    text-align: center;
+}
